@@ -1,0 +1,49 @@
+.login{
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 4px;
+    
+}
+.background{
+    background-image: url("../Assets/img/rct-session-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .session-inner-wrapper {
+      transform: translate3d(0%, 10%, 0);
+      padding-bottom: 1.875rem;
+    }
+    
+}
+.loginHeader{
+    text-align: center;
+}
+.loginUserName{
+    width: 100%;
+    height: 30px;
+}
+.loginUser{
+    width: 80%;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.loginButton{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(131, 131, 194);
+    border: none;
+
+}
